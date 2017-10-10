@@ -1,2 +1,2 @@
-# iOS-MVVM-
-iOS，Objective-C MVVM框架
+# iOS-MVVM
+iOS，Objective-C MVVM框架项目
