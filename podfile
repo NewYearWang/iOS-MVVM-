@@ -1,0 +1,51 @@
+platform :ios, '7.0'
+
+# RAC
+pod 'ReactiveCocoa', '~> 2.5'
+
+pod 'Reachability', '~> 3.2'
+
+# AFN
+pod 'AFNetworking', '~> 3.0.4'
+
+# SDWeb
+pod 'SDWebImage'
+
+#Masonry
+pod 'Masonry', '~> 1.0.0'
+
+pod 'ZYCornerRadius', '~> 0.9.1'
+
+#引导页
+pod 'EAIntroView', '~> 2.6.0'
+
+#加载等待
+pod 'MBProgressHUD', '~> 0.9.1'
+
+#刷新加载
+pod 'MJRefresh', '~> 0.0.1'
+
+#轮播图
+pod 'ImagePlayerView', '~> 1.0.2'
+
+#字典模型互转
+pod 'MJExtension'
+
+
+#百度地图iOS SDK（CocoaPods百度地图官方库）
+pod 'BaiduMapKit', '~> 2.10.2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

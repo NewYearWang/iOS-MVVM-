@@ -1,0 +1,72 @@
+//
+//  PrefixHeader.pch
+//  New_MVVM
+//
+//  Created by 票金所 on 16/4/21.
+//  Copyright © 2016年 WangXinNian. All rights reserved.
+//
+
+/**
+ 常用三方：
+ 
+ 网络请求：
+ AFNetworking
+ ASIHTTPRequest
+ 
+ 网络图片处理:
+ SDWebImage
+ 
+ 图片处理圆角优化:
+ ZYCornerRadius
+ 
+ 适配:
+ Masonry
+ 
+ RAC(响应式编程):
+ ReActiveCocoa
+ 
+ 加载等待：
+ MBProgressHUD
+ 
+ 下拉刷新，上拉加载
+ EGORefreshTableHeaderView
+ MJRefresh
+ 
+ 解析JSON：
+ JSONKit
+ 
+ 引导页：
+ EAIntroView
+ 
+ 轮播图：
+ ImagePlayerView
+ 
+ 友盟统计：
+ UMengAnalytics
+ 
+ 
+ http://www.jianshu.com/collection/19dbe28002a3
+ */
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 网络请求参数
+#import "APImacro.h"
+#import "ViewMacro.h"
+#import "UtilsMacro.h"
+#import "APPMacro.h"
+
+#import "MyRequest.h"
+#import "SandBoxPaths.h"
+
+// 三方
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "Masonry.h"
+#import "UIImageView+CornerRadius.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+
+
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeInfoTableViewCell" rowHeight="139" id="KGk-i7-Jjw" customClass="HomeInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPD-22-0WR">
+                        <rect key="frame" x="5" y="5" width="310" height="128"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hongkou.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="scX-Uw-bd4">
+                                <rect key="frame" x="10" y="13" width="73" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="scX-Uw-bd4" secondAttribute="height" multiplier="80:113" id="YjF-oq-op7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海虹口足球场" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Da-Ob-0Ch">
+                                <rect key="frame" x="91" y="12" width="203" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GPF-Hw-aoy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world_starfull" translatesAutoresizingMaskIntoConstraints="NO" id="h3n-Cs-NDK">
+                                <rect key="frame" x="91" y="36" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="alu-c0-G4i"/>
+                                    <constraint firstAttribute="width" secondItem="h3n-Cs-NDK" secondAttribute="height" multiplier="1:1" id="pyZ-dR-e9a"/>
+                                    <constraint firstAttribute="width" constant="16" id="zyA-lE-6eT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world_starfull" translatesAutoresizingMaskIntoConstraints="NO" id="dTZ-RD-hrQ">
+                                <rect key="frame" x="109" y="36" width="16" height="16"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world_starhalf" translatesAutoresizingMaskIntoConstraints="NO" id="l6l-bx-DWa">
+                                <rect key="frame" x="127" y="36" width="16" height="16"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world_starhalf" translatesAutoresizingMaskIntoConstraints="NO" id="NWv-5X-Pvy">
+                                <rect key="frame" x="145" y="36" width="16" height="16"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_world_starhalf" translatesAutoresizingMaskIntoConstraints="NO" id="eq5-vF-yen">
+                                <rect key="frame" x="163" y="36" width="16" height="16"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="虹口区东江湾路444号虹口足球场内(近四川路)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcX-Vj-qlp">
+                                <rect key="frame" x="91" y="57" width="203" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地铁3号线, 地铁8号线" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVm-dR-nn1">
+                                <rect key="frame" x="91" y="78" width="203" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="021-1234567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcA-uR-V7h">
+                                <rect key="frame" x="91" y="99" width="203" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l6l-bx-DWa" firstAttribute="centerY" secondItem="dTZ-RD-hrQ" secondAttribute="centerY" id="1tC-zR-A8X"/>
+                            <constraint firstItem="NWv-5X-Pvy" firstAttribute="leading" secondItem="l6l-bx-DWa" secondAttribute="trailing" constant="2" id="3ya-Sb-Ldm"/>
+                            <constraint firstItem="scX-Uw-bd4" firstAttribute="leading" secondItem="zPD-22-0WR" secondAttribute="leading" constant="10" id="679-4W-Prs"/>
+                            <constraint firstItem="h3n-Cs-NDK" firstAttribute="top" secondItem="3Da-Ob-0Ch" secondAttribute="bottom" constant="3" id="6iR-IJ-Ekz"/>
+                            <constraint firstItem="l6l-bx-DWa" firstAttribute="width" secondItem="dTZ-RD-hrQ" secondAttribute="width" id="6ve-DD-bwQ"/>
+                            <constraint firstItem="3Da-Ob-0Ch" firstAttribute="leading" secondItem="scX-Uw-bd4" secondAttribute="trailing" constant="8" id="6wm-yD-gfu"/>
+                            <constraint firstItem="vcA-uR-V7h" firstAttribute="top" secondItem="DVm-dR-nn1" secondAttribute="bottom" constant="3" id="83c-yZ-E0t"/>
+                            <constraint firstAttribute="bottom" secondItem="vcA-uR-V7h" secondAttribute="bottom" constant="11" id="9HS-1U-m1d"/>
+                            <constraint firstItem="eq5-vF-yen" firstAttribute="height" secondItem="NWv-5X-Pvy" secondAttribute="height" id="EFi-be-U30"/>
+                            <constraint firstAttribute="trailing" secondItem="3Da-Ob-0Ch" secondAttribute="trailing" constant="16" id="Ffg-Qb-zpX"/>
+                            <constraint firstItem="dTZ-RD-hrQ" firstAttribute="width" secondItem="h3n-Cs-NDK" secondAttribute="width" id="GcE-7Z-cBm"/>
+                            <constraint firstItem="dTZ-RD-hrQ" firstAttribute="height" secondItem="h3n-Cs-NDK" secondAttribute="height" id="JZC-1d-7eF"/>
+                            <constraint firstItem="bcX-Vj-qlp" firstAttribute="leading" secondItem="scX-Uw-bd4" secondAttribute="trailing" constant="8" id="KBv-2X-fba"/>
+                            <constraint firstItem="NWv-5X-Pvy" firstAttribute="height" secondItem="l6l-bx-DWa" secondAttribute="height" id="KFw-Th-ZLZ"/>
+                            <constraint firstAttribute="trailing" secondItem="bcX-Vj-qlp" secondAttribute="trailing" constant="16" id="KOy-Uz-fAQ"/>
+                            <constraint firstItem="dTZ-RD-hrQ" firstAttribute="centerY" secondItem="h3n-Cs-NDK" secondAttribute="centerY" id="Mq6-27-jh1"/>
+                            <constraint firstItem="3Da-Ob-0Ch" firstAttribute="top" secondItem="zPD-22-0WR" secondAttribute="top" constant="12" id="Mvw-iz-fKq"/>
+                            <constraint firstItem="scX-Uw-bd4" firstAttribute="top" secondItem="zPD-22-0WR" secondAttribute="top" constant="13" id="OHa-Fq-pb3"/>
+                            <constraint firstItem="DVm-dR-nn1" firstAttribute="leading" secondItem="scX-Uw-bd4" secondAttribute="trailing" constant="8" id="QZd-et-DZG"/>
+                            <constraint firstItem="eq5-vF-yen" firstAttribute="centerY" secondItem="NWv-5X-Pvy" secondAttribute="centerY" id="Rdy-90-Nqg"/>
+                            <constraint firstAttribute="trailing" secondItem="DVm-dR-nn1" secondAttribute="trailing" constant="16" id="T8E-qy-3wd"/>
+                            <constraint firstAttribute="bottom" secondItem="scX-Uw-bd4" secondAttribute="bottom" constant="13" id="WmF-fT-P6Y"/>
+                            <constraint firstItem="dTZ-RD-hrQ" firstAttribute="leading" secondItem="h3n-Cs-NDK" secondAttribute="trailing" constant="2" id="cg9-zD-t6F"/>
+                            <constraint firstItem="eq5-vF-yen" firstAttribute="leading" secondItem="NWv-5X-Pvy" secondAttribute="trailing" constant="2" id="dSx-wY-SXS"/>
+                            <constraint firstItem="DVm-dR-nn1" firstAttribute="height" secondItem="bcX-Vj-qlp" secondAttribute="height" id="dsg-Z7-ul0"/>
+                            <constraint firstItem="l6l-bx-DWa" firstAttribute="leading" secondItem="dTZ-RD-hrQ" secondAttribute="trailing" constant="2" id="fgY-wF-fe2"/>
+                            <constraint firstItem="vcA-uR-V7h" firstAttribute="leading" secondItem="scX-Uw-bd4" secondAttribute="trailing" constant="8" id="fjr-6N-Z9k"/>
+                            <constraint firstItem="DVm-dR-nn1" firstAttribute="top" secondItem="bcX-Vj-qlp" secondAttribute="bottom" constant="3" id="jNY-gS-nUv"/>
+                            <constraint firstItem="NWv-5X-Pvy" firstAttribute="centerY" secondItem="l6l-bx-DWa" secondAttribute="centerY" id="jtj-gG-ASu"/>
+                            <constraint firstAttribute="trailing" secondItem="vcA-uR-V7h" secondAttribute="trailing" constant="16" id="kza-vF-Qpo"/>
+                            <constraint firstItem="NWv-5X-Pvy" firstAttribute="width" secondItem="l6l-bx-DWa" secondAttribute="width" id="mPm-NX-vpQ"/>
+                            <constraint firstItem="h3n-Cs-NDK" firstAttribute="leading" secondItem="scX-Uw-bd4" secondAttribute="trailing" constant="8" id="mme-Zf-iLb"/>
+                            <constraint firstItem="bcX-Vj-qlp" firstAttribute="top" secondItem="l6l-bx-DWa" secondAttribute="bottom" constant="5" id="szU-m1-GxA"/>
+                            <constraint firstItem="eq5-vF-yen" firstAttribute="width" secondItem="NWv-5X-Pvy" secondAttribute="width" id="tdb-9c-Ilh"/>
+                            <constraint firstItem="l6l-bx-DWa" firstAttribute="height" secondItem="dTZ-RD-hrQ" secondAttribute="height" id="vFY-UH-LnH"/>
+                            <constraint firstItem="vcA-uR-V7h" firstAttribute="height" secondItem="DVm-dR-nn1" secondAttribute="height" id="vk2-ws-4mc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="zPD-22-0WR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="0fA-PB-6sF"/>
+                    <constraint firstItem="zPD-22-0WR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="dsh-Ms-7xl"/>
+                    <constraint firstAttribute="trailing" secondItem="zPD-22-0WR" secondAttribute="trailing" constant="5" id="vne-lr-7WW"/>
+                    <constraint firstAttribute="bottom" secondItem="zPD-22-0WR" secondAttribute="bottom" constant="5" id="zpQ-Uk-B1c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="304" y="405.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hongkou.jpg" width="250" height="250"/>
+        <image name="icon_world_starfull" width="12" height="13"/>
+        <image name="icon_world_starhalf" width="12" height="13"/>
+    </resources>
+</document>
